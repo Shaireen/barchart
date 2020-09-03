@@ -1,0 +1,11 @@
+.bar {
+  display: inline-block;
+  width: 20px;
+  border: 1px solid white;
+  background-color: #d391ff;
+}
+
+#bars {
+  width: 100vw;
+  margin-top: 100px;
+}
