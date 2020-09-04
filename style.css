@@ -1,11 +1,16 @@
 .bar {
   display: inline-block;
   width: 20px;
-  border: 1px solid white;
+  border: 1px solid black;
   background-color: #d391ff;
+}
+
+body {
+  background-color: black;
 }
 
 #bars {
   width: 100vw;
   margin-top: 100px;
+  padding-top: 100px;
 }

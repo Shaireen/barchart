@@ -1,16 +1,6 @@
 let array = [];
 let i = 0;
 createFortyBars();
-/** 
-function loopThrough() {
-  for (let i = 0; i < array.length; i++) {
-    let newBar = document.createElement("div");
-    const parentContainer = document.querySelector("#bars");
-    newBar.classList.add("bar");
-    newBar.style.height = array[i] + "px";
-    parentContainer.appendChild(newBar);
-  }
-} **/
 
 function getQueueSize() {
   return Math.floor(Math.random() * 32);
